@@ -88,4 +88,54 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # additional modules
+  include macvim
+  include emacs
+  include slate
+  include iterm2::dev
+  include zsh
+  include autojump
+  include tmux
+  include wget
+  include xquartz
+
+  include redis
+  include mongodb
+
+  include java
+  include clojure
+
+  include firefox
+  include firefox::nightly
+  include chrome
+  include chrome::dev
+
+  include dropbox
+
+  class { 'intellij':
+    edition => 'community'
+  }
+
+  include onepassword
+  include alfred
+  include skype
+  include notational_velocity::nvalt
+  include googleearth
+  include colloquy
+
+  include appcleaner
+  include ccleaner
+  include daisy_disk
+  include istatmenus4
+
+  include virtualbox
+  include vagrant
+  #vagrant::plugin { 'vagrant-vmware-fusion':
+  #    license => 'puppet:///modules/people/joe/licenses/fusion.lic',
+  #}
+
+  #vagrant::box { 'squeeze64/vmware_fusion':
+  #    source => 'https://s3.amazonaws.com/github-ops/vagrant/squeeze64-6.0.7-vmware_fusion.box'
+  #}
 }

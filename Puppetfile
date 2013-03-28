@@ -37,15 +37,41 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "onepassword", "1.0.0"
-github "macvim",      "1.0.0"
-github "iterm2",      "1.0.1"
-github "dropbox",     "1.1.0"
 github "osx",         "1.0.0"
-github "firefox",     "1.0.3"
-github "chrome",      "1.1.0"
-github "appcleaner",  "1.0.0"
+github "slate",       "1.0.0"
+github "macvim",      "1.0.0"
+github "emacs",       "1.0.0"
+github "iterm2",      "1.0.2"
 github "zsh",         "1.0.0"
-github "ccleaner",    "1.0.0"
+github "autojump",    "1.0.0"
+github "tmux",        "1.0.1"
+github "wget",        "1.0.0"
+github "xquartz",     "1.1.0"
+
 github "redis",       "1.0.0"
-github "alfred",      "1.0.0"
+github "mongodb",     "1.0.0"
+
+github "java",        "1.0.6"
+github "clojure",     "1.2.0"
+
+github "firefox",     "1.0.5"
+github "chrome",      "1.1.0"
+
+github "dropbox",     "1.1.0"
+
+github "intellij",    "1.1.2"
+
+github "onepassword", "1.0.0"
+github "alfred",      "1.0.1"
+github "skype",       "1.0.2"
+github "notational_velocity", "1.1.0"
+github "googleearth", "1.0.0"
+github "colloquy",    "1.0.0"
+
+github "appcleaner",  "1.0.0"
+github "ccleaner",    "1.0.1"
+github "daisy_disk",  "1.0.0"
+github "istatmenus4", "1.0.1", :repo => "smh/puppet-istatmenus4"
+
+github "virtualbox",  "1.0.1"
+github "vagrant",     "2.0.3"
