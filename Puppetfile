@@ -37,6 +37,7 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "pckeyboardhack", "1.0.0", :repo => "smh/puppet-pckeyboardhack"
 github "osx",         "1.0.0"
 github "slate",       "1.0.0"
 github "macvim",      "1.0.0"
