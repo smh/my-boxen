@@ -90,6 +90,7 @@ node default {
   }
 
   # additional modules
+  include pckeyboardhack
   include macvim
   include emacs
   include slate
