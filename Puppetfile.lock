@@ -109,6 +109,11 @@ GITHUBTARBALL
     java (1.0.6)
 
 GITHUBTARBALL
+  remote: boxen/puppet-keyremap4macbook
+  specs:
+    keyremap4macbook (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-macvim
   specs:
     macvim (1.0.0)
@@ -209,6 +214,11 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
+  remote: glarizza/puppet-property_list_key
+  specs:
+    property_list_key (0.1.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -224,9 +234,14 @@ GITHUBTARBALL
     istatmenus4 (1.0.1)
 
 GITHUBTARBALL
+  remote: smh/puppet-modern_space_cadet
+  specs:
+    modern_space_cadet (1.0.0)
+
+GITHUBTARBALL
   remote: smh/puppet-pckeyboardhack
   specs:
-    pckeyboardhack (1.0.0)
+    pckeyboardhack (1.0.1)
 
 DEPENDENCIES
   alfred (= 1.0.1)
@@ -253,7 +268,9 @@ DEPENDENCIES
   istatmenus4 (= 1.0.1)
   iterm2 (= 1.0.2)
   java (= 1.0.6)
+  keyremap4macbook (= 1.0.2)
   macvim (= 1.0.0)
+  modern_space_cadet (= 1.0.0)
   mongodb (= 1.0.0)
   nginx (= 1.4.2)
   nodejs (= 3.2.9)
@@ -261,7 +278,8 @@ DEPENDENCIES
   onepassword (= 1.0.0)
   openssl (= 1.0.0)
   osx (= 1.0.0)
-  pckeyboardhack (= 1.0.0)
+  pckeyboardhack (= 1.0.1)
+  property_list_key (= 0.1.0)
   redis (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.3.4)

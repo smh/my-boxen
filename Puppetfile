@@ -37,8 +37,11 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "pckeyboardhack", "1.0.0", :repo => "smh/puppet-pckeyboardhack"
+github "pckeyboardhack", "1.0.1", :repo => "smh/puppet-pckeyboardhack"
+github "keyremap4macbook", "1.0.2"
+github "modern_space_cadet", "1.0.0", :repo => "smh/puppet-modern_space_cadet"
 github "osx",         "1.0.0"
+github "property_list_key", "0.1.0", :repo => 'glarizza/puppet-property_list_key'
 github "slate",       "1.0.0"
 github "macvim",      "1.0.0"
 github "emacs",       "1.0.0"
