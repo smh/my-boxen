@@ -62,7 +62,7 @@ github "java",        "1.1.0"
 github "clojure",     "1.2.0"
 github "python",      "1.1.1"
 
-github "firefox",     "1.0.5"
+github "firefox",     "1.0.6", :repo => 'smh/puppet-firefox'
 github "chrome",      "1.1.0"
 
 github "dropbox",     "1.1.0"

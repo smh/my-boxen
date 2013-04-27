@@ -64,11 +64,6 @@ GITHUBTARBALL
     emacs (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-firefox
-  specs:
-    firefox (1.0.5)
-
-GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (2.0.1)
@@ -249,6 +244,11 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 GITHUBTARBALL
+  remote: smh/puppet-firefox
+  specs:
+    firefox (1.0.6)
+
+GITHUBTARBALL
   remote: smh/puppet-istatmenus4
   specs:
     istatmenus4 (1.0.1)
@@ -277,7 +277,7 @@ DEPENDENCIES
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.0)
   emacs (= 1.0.0)
-  firefox (= 1.0.5)
+  firefox (= 1.0.6)
   gcc (= 2.0.1)
   git (= 1.2.5)
   googleearth (= 1.0.0)
