@@ -37,6 +37,7 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "sysctl",      "1.0.0"
 github "pckeyboardhack", "1.0.1", :repo => "smh/puppet-pckeyboardhack"
 github "keyremap4macbook", "1.0.2"
 github "modern_space_cadet", "1.0.0", :repo => "smh/puppet-modern_space_cadet"
@@ -54,7 +55,9 @@ github "xquartz",     "1.1.0"
 
 github "redis",       "1.0.0"
 github "mongodb",     "1.0.0"
+github "postgresql",  "1.0.0"
 
+github "heroku",      "2.0.0"
 github "java",        "1.0.6"
 github "clojure",     "1.2.0"
 

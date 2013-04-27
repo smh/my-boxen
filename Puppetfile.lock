@@ -84,6 +84,11 @@ GITHUBTARBALL
     googleearth (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-heroku
+  specs:
+    heroku (2.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.4.1)
@@ -154,6 +159,11 @@ GITHUBTARBALL
     osx (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-postgresql
+  specs:
+    postgresql (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
     redis (1.0.0)
@@ -182,6 +192,11 @@ GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sysctl
+  specs:
+    sysctl (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-tmux
@@ -261,6 +276,7 @@ DEPENDENCIES
   gcc (= 2.0.1)
   git (= 1.2.5)
   googleearth (= 1.0.0)
+  heroku (= 2.0.0)
   homebrew (= 1.4.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)
@@ -279,6 +295,7 @@ DEPENDENCIES
   openssl (= 1.0.0)
   osx (= 1.0.0)
   pckeyboardhack (= 1.0.1)
+  postgresql (= 1.0.0)
   property_list_key (= 0.1.0)
   redis (= 1.0.0)
   repository (= 2.2.0)
@@ -287,6 +304,7 @@ DEPENDENCIES
   slate (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  sysctl (= 1.0.0)
   tmux (= 1.0.1)
   vagrant (= 2.0.3)
   virtualbox (= 1.0.1)

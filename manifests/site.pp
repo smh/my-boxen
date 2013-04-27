@@ -104,6 +104,9 @@ node default {
 
   include redis
   include mongodb
+  include postgresql
+
+  include heroku
 
   include java
   include clojure
