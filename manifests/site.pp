@@ -110,6 +110,7 @@ node default {
 
   include java
   include clojure
+  include python
 
   include firefox
   include firefox::nightly
