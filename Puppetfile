@@ -50,7 +50,6 @@ github "zsh",         "1.0.0"
 github "autojump",    "1.0.0"
 github "tmux",        "1.0.1"
 github "wget",        "1.0.0"
-github "xquartz",     "1.1.0"
 
 github "redis",       "1.0.0"
 github "mongodb",     "1.0.0"
