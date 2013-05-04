@@ -209,6 +209,11 @@ GITHUBTARBALL
     vagrant (2.0.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vim
+  specs:
+    vim (1.0.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
     virtualbox (1.0.1)
@@ -313,6 +318,7 @@ DEPENDENCIES
   sysctl (= 1.0.0)
   tmux (= 1.0.1)
   vagrant (= 2.0.3)
+  vim (= 1.0.3)
   virtualbox (= 1.0.1)
   wget (= 1.0.0)
   xquartz (= 1.1.0)
