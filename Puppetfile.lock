@@ -111,7 +111,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-keyremap4macbook
   specs:
-    keyremap4macbook (1.0.2)
+    keyremap4macbook (1.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-macvim
@@ -261,12 +261,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: smh/puppet-modern_space_cadet
   specs:
-    modern_space_cadet (1.0.0)
+    modern_space_cadet (1.0.1)
 
 GITHUBTARBALL
   remote: smh/puppet-pckeyboardhack
   specs:
-    pckeyboardhack (1.0.4)
+    pckeyboardhack (1.0.5)
 
 DEPENDENCIES
   alfred (= 1.0.1)
@@ -294,9 +294,9 @@ DEPENDENCIES
   istatmenus4 (= 1.0.1)
   iterm2 (= 1.0.2)
   java (= 1.1.0)
-  keyremap4macbook (= 1.0.2)
+  keyremap4macbook (= 1.0.3)
   macvim (= 1.0.0)
-  modern_space_cadet (= 1.0.0)
+  modern_space_cadet (= 1.0.1)
   mongodb (= 1.0.0)
   nginx (= 1.4.2)
   nodejs (= 3.2.9)
@@ -304,7 +304,7 @@ DEPENDENCIES
   onepassword (= 1.0.0)
   openssl (= 1.0.0)
   osx (= 1.0.0)
-  pckeyboardhack (= 1.0.4)
+  pckeyboardhack (= 1.0.5)
   postgresql (= 1.0.0)
   property_list_key (= 0.1.0)
   python (= 1.1.1)

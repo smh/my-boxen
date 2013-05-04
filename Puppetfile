@@ -38,9 +38,9 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "sysctl",      "1.0.0"
-github "pckeyboardhack", "1.0.4", :repo => "smh/puppet-pckeyboardhack"
-github "keyremap4macbook", "1.0.2"
-github "modern_space_cadet", "1.0.0", :repo => "smh/puppet-modern_space_cadet"
+github "pckeyboardhack", "1.0.5", :repo => "smh/puppet-pckeyboardhack"
+github "keyremap4macbook", "1.0.3"
+github "modern_space_cadet", "1.0.1", :repo => "smh/puppet-modern_space_cadet"
 github "osx",         "1.0.0"
 github "property_list_key", "0.1.0", :repo => 'glarizza/puppet-property_list_key'
 github "slate",       "1.0.0"
