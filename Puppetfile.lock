@@ -310,6 +310,5 @@ DEPENDENCIES
   virtualbox (= 1.0.1)
   wget (= 1.0.0)
   xquartz (= 1.1.0)
-  xquartz (= 1.1.0)
   zsh (= 1.0.0)
 
