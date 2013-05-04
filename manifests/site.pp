@@ -92,7 +92,6 @@ node default {
   # additional modules
   #  include pckeyboardhack
   #  include keyremap4macbook
-  include macvim
   include emacs
   include slate
   include iterm2::dev
@@ -101,6 +100,28 @@ node default {
   include tmux
   include wget
   include xquartz
+
+  package { 'mercurial': }
+  package { 'vim':
+    require         => Package[mercurial],
+    install_options => [
+      '--with-cscope',
+      '--override-system-vim',
+      '--enable-pythoninterp'
+    ]
+  }
+  package { 'macvim':
+    install_options => [
+      '--with-cscope',
+    ]
+  }
+
+  # additional homebrew packages
+  package {
+    [
+      'ledger'
+    ]:
+  }
 
   include redis
   include mongodb

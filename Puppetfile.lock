@@ -119,11 +119,6 @@ GITHUBTARBALL
     keyremap4macbook (1.0.3)
 
 GITHUBTARBALL
-  remote: boxen/puppet-macvim
-  specs:
-    macvim (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-mongodb
   specs:
     mongodb (1.0.0)
@@ -214,11 +209,6 @@ GITHUBTARBALL
     vagrant (2.0.3)
 
 GITHUBTARBALL
-  remote: boxen/puppet-vim
-  specs:
-    vim (1.0.3)
-
-GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
     virtualbox (1.0.1)
@@ -295,7 +285,6 @@ DEPENDENCIES
   iterm2 (= 1.0.2)
   java (= 1.1.0)
   keyremap4macbook (= 1.0.3)
-  macvim (= 1.0.0)
   modern_space_cadet (= 1.0.1)
   mongodb (= 1.0.0)
   nginx (= 1.4.2)
@@ -318,7 +307,6 @@ DEPENDENCIES
   sysctl (= 1.0.0)
   tmux (= 1.0.1)
   vagrant (= 2.0.3)
-  vim (= 1.0.3)
   virtualbox (= 1.0.1)
   wget (= 1.0.0)
   xquartz (= 1.1.0)
