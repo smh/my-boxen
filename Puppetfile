@@ -44,8 +44,6 @@ github "modern_space_cadet", "1.0.1", :repo => "smh/puppet-modern_space_cadet"
 github "osx",         "1.0.0"
 github "property_list_key", "0.1.0", :repo => 'glarizza/puppet-property_list_key'
 github "slate",       "1.0.0"
-github "vim",         "1.0.3"
-github "macvim",      "1.0.0"
 github "emacs",       "1.0.0"
 github "iterm2",      "1.0.2"
 github "zsh",         "1.0.0"

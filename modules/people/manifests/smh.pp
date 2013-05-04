@@ -10,12 +10,13 @@ class people::smh {
 
   repository { "/Users/${::boxen_user}/.dotfiles": source => 'smh/dotfiles' }
 
-  include vim
-
   file { "/Users/${::boxen_user}/.vimrc":
     target  => "/Users/${::boxen_user}/.dotfiles/vimrc",
     require => Repository["/Users/${::boxen_user}/.dotfiles"]
   }
 
-  vim::bundle { 'gmarik/vundle': }
+  file { "/Users/${::boxen_user}/.gvimrc":
+    target  => "/Users/${::boxen_user}/.dotfiles/gvimrc",
+    require => Repository["/Users/${::boxen_user}/.dotfiles"]
+  }
 }
