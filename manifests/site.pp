@@ -119,7 +119,10 @@ node default {
   # additional homebrew packages
   package {
     [
-      'ledger'
+      'ledger',
+      'tree',
+      'grc',
+      'ssh-copy-id'
     ]:
   }
 
