@@ -121,8 +121,8 @@ node default {
     [
       'ledger',
       'tree',
-      'grc',
-      'ssh-copy-id'
+      'ssh-copy-id',
+      'tig'
     ]:
   }
 
