@@ -10,12 +10,20 @@ class people::smh {
 
   repository { "/Users/${::boxen_user}/.dotfiles": source => 'smh/dotfiles' }
 
+  file { "/Users/${::boxen_user}/.jshintrc":
+    ensure  => 'link',
+    target  => "/Users/${::boxen_user}/.dotfiles/jshintrc",
+    require => Repository["/Users/${::boxen_user}/.dotfiles"]
+  }
+
   file { "/Users/${::boxen_user}/.vimrc":
+    ensure  => 'link',
     target  => "/Users/${::boxen_user}/.dotfiles/vimrc",
     require => Repository["/Users/${::boxen_user}/.dotfiles"]
   }
 
   file { "/Users/${::boxen_user}/.gvimrc":
+    ensure  => 'link',
     target  => "/Users/${::boxen_user}/.dotfiles/gvimrc",
     require => Repository["/Users/${::boxen_user}/.dotfiles"]
   }

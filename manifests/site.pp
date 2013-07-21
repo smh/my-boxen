@@ -122,7 +122,8 @@ node default {
       'ledger',
       'tree',
       'ssh-copy-id',
-      'tig'
+      'tig',
+      'ctags-exuberant'
     ]:
   }
 
