@@ -27,4 +27,10 @@ class people::smh {
     target  => "/Users/${::boxen_user}/.dotfiles/gvimrc",
     require => Repository["/Users/${::boxen_user}/.dotfiles"]
   }
+
+  file { "/Users/${::boxen_user}/.zshrc":
+    ensure  => 'link',
+    target  => "/Users/${::boxen_user}/.dotfiles/zshrc",
+    require => Repository["/Users/${::boxen_user}/.dotfiles"]
+  }
 }
