@@ -162,6 +162,8 @@ node default {
 
   include virtualbox
   include vagrant
+  #vagrant::plugin { 'vagrant-veewee': }
+
   #vagrant::plugin { 'vagrant-vmware-fusion':
   #    license => 'puppet:///modules/people/joe/licenses/fusion.lic',
   #}
