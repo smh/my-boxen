@@ -145,7 +145,7 @@ node default {
   include dropbox
 
   class { 'intellij':
-    edition => 'community'
+    edition => 'ultimate'
   }
 
   include onepassword
