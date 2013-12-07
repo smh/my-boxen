@@ -38,8 +38,8 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "sysctl",      "1.0.0"
-github "pckeyboardhack", "1.0.5", :repo => "smh/puppet-pckeyboardhack"
-github "keyremap4macbook", "1.0.4"
+github "pckeyboardhack", "1.0.8", :repo => "smh/puppet-pckeyboardhack"
+github "keyremap4macbook", "1.2.1", :repo => "smh/puppet-keyremap4macbook"
 github "modern_space_cadet", "1.0.2", :repo => "smh/puppet-modern_space_cadet"
 github "osx",         "1.6.0"
 github "property_list_key", "0.1.0", :repo => 'glarizza/puppet-property_list_key'
@@ -65,7 +65,7 @@ github "chrome",      "1.1.1"
 
 github "dropbox",     "1.1.1"
 
-github "intellij",    "1.3.0"
+github "intellij",    "1.4.0"
 
 github "onepassword", "1.0.2"
 github "alfred",      "1.1.4"
@@ -80,4 +80,4 @@ github "daisy_disk",  "1.0.0"
 github "istatmenus4", "1.0.1", :repo => "smh/puppet-istatmenus4"
 
 github "virtualbox",  "1.0.5"
-github "vagrant",     "2.0.9"
+github "vagrant",     "3.0.0"
