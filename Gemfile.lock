@@ -15,8 +15,7 @@ GEM
       librarian-puppet (~> 0.9.9)
       octokit (~> 2.3.0)
       puppet (~> 3.0)
-    builder (3.1.4)
-    diff-lcs (1.2.4)
+    builder (3.2.2)
     facter (1.7.3)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
@@ -68,6 +67,7 @@ GEM
       faraday (~> 0.8, < 0.10)
     thor (0.18.1)
     trollop (2.0)
+    uri_template (0.5.3)
     uuidtools (2.1.4)
 
 PLATFORMS
