@@ -14,6 +14,11 @@ GITHUBTARBALL
     autojump (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-better_touch_tools
+  specs:
+    better_touch_tools (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.3.4)
@@ -117,6 +122,11 @@ GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
     java (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-keyremap4macbook
+  specs:
+    keyremap4macbook (1.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-mongodb
@@ -259,11 +269,6 @@ GITHUBTARBALL
     istatmenus4 (1.0.1)
 
 GITHUBTARBALL
-  remote: smh/puppet-keyremap4macbook
-  specs:
-    keyremap4macbook (1.2.1)
-
-GITHUBTARBALL
   remote: smh/puppet-modern_space_cadet
   specs:
     modern_space_cadet (1.0.2)
@@ -277,6 +282,7 @@ DEPENDENCIES
   alfred (= 1.1.4)
   appcleaner (= 1.0.0)
   autojump (= 1.0.0)
+  better_touch_tools (= 1.0.0)
   boxen (= 3.3.4)
   ccleaner (= 1.0.2)
   chrome (= 1.1.1)

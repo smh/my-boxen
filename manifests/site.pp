@@ -122,7 +122,8 @@ node default {
       'tree',
       'ssh-copy-id',
       'tig',
-      'ctags-exuberant'
+      'ctags-exuberant',
+      'direnv'
     ]:
   }
 
@@ -142,6 +143,7 @@ node default {
   include chrome::dev
 
   include dropbox
+  include better_touch_tools
 
   class { 'intellij':
     edition => 'ultimate',
