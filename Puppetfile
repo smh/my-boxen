@@ -57,12 +57,13 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "sysctl",      "1.0.0"
-github "pckeyboardhack", "1.0.8", :repo => "smh/puppet-pckeyboardhack"
+github "pckeyboardhack", "1.1.0", :repo => "smh/puppet-pckeyboardhack"
 github "keyremap4macbook", "1.2.1"
-github "modern_space_cadet", "1.0.2", :repo => "smh/puppet-modern_space_cadet"
+github "modern_space_cadet", "1.0.3", :repo => "smh/puppet-modern_space_cadet"
 github "better_touch_tools", "1.0.0"
 github "osx",         "1.6.0"
-github "property_list_key", "0.1.0", :repo => 'glarizza/puppet-property_list_key'
+#github "property_list_key", "0.2.0", :repo => 'glarizza/puppet-property_list_key'
+github "property_list_key", "0.2.1", :repo => 'smh/puppet-property_list_key'
 github "slate",       "1.0.0"
 github "emacs",       "1.1.0"
 github "iterm2",      "1.0.3"

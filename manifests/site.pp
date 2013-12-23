@@ -147,7 +147,7 @@ node default {
 
   class { 'intellij':
     edition => 'ultimate',
-    version => '13.0'
+    version => '13.0.1'
   }
 
   include onepassword
