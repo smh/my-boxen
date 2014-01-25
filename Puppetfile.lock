@@ -231,7 +231,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.5)
+    virtualbox (1.0.10)
 
 GITHUBTARBALL
   remote: boxen/puppet-wget
@@ -271,7 +271,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: smh/puppet-pckeyboardhack
   specs:
-    pckeyboardhack (1.1.0)
+    pckeyboardhack (1.2.1)
 
 GITHUBTARBALL
   remote: smh/puppet-property_list_key
@@ -315,7 +315,7 @@ DEPENDENCIES
   onepassword (= 1.0.2)
   openssl (= 1.0.0)
   osx (= 1.6.0)
-  pckeyboardhack (= 1.1.0)
+  pckeyboardhack (= 1.2.1)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   postgresql (= 2.0.1)
@@ -331,7 +331,7 @@ DEPENDENCIES
   sysctl (= 1.0.0)
   tmux (= 1.0.2)
   vagrant (= 3.0.0)
-  virtualbox (= 1.0.5)
+  virtualbox (= 1.0.10)
   wget (= 1.0.0)
   xquartz (= 1.1.0)
   zsh (= 1.0.0)
