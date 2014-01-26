@@ -101,4 +101,4 @@ github "daisy_disk",  "1.0.0"
 github "istatmenus4", "1.0.1", :repo => "smh/puppet-istatmenus4"
 
 github "virtualbox",  "1.0.10"
-github "vagrant",     "3.0.0"
+github "vagrant",     "3.0.4"
