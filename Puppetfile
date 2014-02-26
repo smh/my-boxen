@@ -57,8 +57,8 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "sysctl",      "1.0.0"
-github "pckeyboardhack", "1.2.1", :repo => "smh/puppet-pckeyboardhack"
-github "keyremap4macbook", "1.2.1"
+github "pckeyboardhack", "1.2.2", :repo => "smh/puppet-pckeyboardhack"
+github "keyremap4macbook", "1.2.2"
 github "modern_space_cadet", "1.0.3", :repo => "smh/puppet-modern_space_cadet"
 github "better_touch_tools", "1.0.0"
 github "osx",         "1.6.0"
