@@ -123,7 +123,8 @@ node default {
       'ssh-copy-id',
       'tig',
       'ctags-exuberant',
-      'direnv'
+      'direnv',
+      'git-flow'
     ]:
   }
 
