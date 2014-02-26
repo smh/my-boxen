@@ -127,6 +127,7 @@ node default {
       'git-flow',
       'git-extras',
       'docker',
+      'boot2docker',
       'grc'
     ]:
   }
