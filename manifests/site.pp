@@ -124,7 +124,10 @@ node default {
       'tig',
       'ctags-exuberant',
       'direnv',
-      'git-flow'
+      'git-flow',
+      'git-extras',
+      'docker',
+      'grc'
     ]:
   }
 
