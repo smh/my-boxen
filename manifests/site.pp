@@ -153,7 +153,7 @@ node default {
 
   class { 'intellij':
     edition => 'ultimate',
-    version => '13.0.1'
+    version => '13.1.3'
   }
 
   include onepassword
@@ -165,7 +165,7 @@ node default {
 
   include appcleaner
   include ccleaner
-  include daisy_disk
+  #  include daisy_disk
   include istatmenus4
 
   include virtualbox
