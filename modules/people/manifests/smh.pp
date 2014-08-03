@@ -28,11 +28,11 @@ class people::smh {
     require => Repository["/Users/${::boxen_user}/.dotfiles"]
   }
 
-  file { "/Users/${::boxen_user}/.zshrc":
-    ensure  => 'link',
-    target  => "/Users/${::boxen_user}/.dotfiles/zshrc",
-    require => Repository["/Users/${::boxen_user}/.dotfiles"]
-  }
+  #  file { "/Users/${::boxen_user}/.zshrc":
+  #    ensure  => 'link',
+  #    target  => "/Users/${::boxen_user}/.dotfiles/zshrc",
+  #    require => Repository["/Users/${::boxen_user}/.dotfiles"]
+  #  }
 
   repository { "/Users/${::boxen_user}/.boxen_licenses": source => 'ssh://git@bitbucket.org/steinhustad/boxen-licenses.git' }
 
