@@ -94,7 +94,7 @@ node default {
   #  include keyremap4macbook
   include emacs
   include slate
-  include iterm2::dev
+  include iterm2::stable
   include zsh
   include autojump
   include tmux
