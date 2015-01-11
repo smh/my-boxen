@@ -62,7 +62,7 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 github "sysctl",      "1.0.1"
-github "seil",        "1.0.2"
+github "seil",        "1.0.3"
 #mod "boxen/seil",        :path => "/Users/smh/src/puppet-seil"
 github "karabiner",   "1.0.6"
 github "modern_space_cadet", "1.0.7"
