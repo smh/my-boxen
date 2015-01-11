@@ -36,7 +36,9 @@ class people::smh {
 
   repository { "/Users/${::boxen_user}/.boxen_licenses": source => 'ssh://git@bitbucket.org/steinhustad/boxen-licenses.git' }
 
-  include vagrant
+  class { 'vagrant':
+    version => '1.7.1'
+  }
   #vagrant::plugin { 'vagrant-veewee': }
 
   vagrant::plugin { 'vagrant-vmware-fusion':

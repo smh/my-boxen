@@ -89,8 +89,6 @@ github "chrome",      "1.2.0"
 
 github "dropbox",     "1.4.1"
 
-github "intellij",    "1.5.1"
-
 github "onepassword", "1.1.5"
 github "alfred",      "1.4.0"
 github "skype",       "1.1.0"

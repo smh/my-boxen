@@ -151,11 +151,6 @@ node default {
   include dropbox
   include better_touch_tools
 
-  class { 'intellij':
-    edition => 'ultimate',
-    version => '13.1.4'
-  }
-
   include onepassword
   include alfred
   include skype
