@@ -67,6 +67,7 @@ node default {
   nodejs::version { '0.6': }
   nodejs::version { '0.8': }
   nodejs::version { '0.10': }
+  nodejs::version { '0.12': }
 
   # default ruby versions
   ruby::version { '1.9.3': }
@@ -92,9 +93,29 @@ node default {
   # additional modules
   #  include pckeyboardhack
   #  include keyremap4macbook
-  include emacs
-  include slate
-  include iterm2::stable
+  include brewcask
+
+  package { 'firefox': provider => 'brewcask' }
+  package { 'virtualbox': provider => 'brewcask' }
+  package { 'vagrant': provider => 'brewcask' }
+  package { 'google-chrome': provider => 'brewcask' }
+  package { 'iterm2': provider => 'brewcask' }
+  package { 'emacs': provider => 'brewcask' }
+  package { '1password': provider => 'brewcask' }
+  package { 'skype': provider => 'brewcask' }
+  package { 'alfred': provider => 'brewcask' }
+  package { 'dropbox': provider => 'brewcask' }
+  package { 'google-earth': provider => 'brewcask' }
+  package { 'colloquy': provider => 'brewcask' }
+  package { 'nvalt': provider => 'brewcask' }
+  package { 'slate': provider => 'brewcask' }
+  package { 'java': provider => 'brewcask' }
+  package { 'appcleaner': provider => 'brewcask' }
+  package { 'ccleaner': provider => 'brewcask' }
+
+  #include emacs
+  #include slate
+  #include iterm2::stable
   include zsh
   include autojump
   include tmux
@@ -133,45 +154,9 @@ node default {
     ]:
   }
 
-  include redis
-  include mongodb
-  include postgresql
-
   include heroku
 
-  include java
   include clojure
   include python
-
-  include firefox
-  include firefox::nightly
-  include chrome
-  include chrome::dev
-
-  include dropbox
-  include better_touch_tools
-
-  include onepassword
-  include alfred
-  include skype
-  include notational_velocity::nvalt
-  include googleearth
-  include colloquy
-
-  include appcleaner
-  include ccleaner
-  #  include daisy_disk
   include istatmenus4
-
-  include virtualbox
-  include vagrant
-  #vagrant::plugin { 'vagrant-veewee': }
-
-  #vagrant::plugin { 'vagrant-vmware-fusion':
-  #    license => 'puppet:///modules/people/joe/licenses/fusion.lic',
-  #}
-
-  #vagrant::box { 'squeeze64/vmware_fusion':
-  #    source => 'https://s3.amazonaws.com/github-ops/vagrant/squeeze64-6.0.7-vmware_fusion.box'
-  #}
 }

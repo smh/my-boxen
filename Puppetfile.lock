@@ -1,22 +1,7 @@
 GITHUBTARBALL
-  remote: boxen/puppet-alfred
-  specs:
-    alfred (1.4.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-appcleaner
-  specs:
-    appcleaner (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-autojump
   specs:
     autojump (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-better_touch_tools
-  specs:
-    better_touch_tools (3.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
@@ -29,44 +14,14 @@ GITHUBTARBALL
     brewcask (0.0.6)
 
 GITHUBTARBALL
-  remote: boxen/puppet-ccleaner
-  specs:
-    ccleaner (1.1.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-chrome
-  specs:
-    chrome (1.2.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-clojure
   specs:
     clojure (1.3.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-colloquy
-  specs:
-    colloquy (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-dropbox
-  specs:
-    dropbox (1.4.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-emacs
-  specs:
-    emacs (1.3.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-firefox
-  specs:
-    firefox (1.2.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -89,11 +44,6 @@ GITHUBTARBALL
     go (2.1.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-googleearth
-  specs:
-    googleearth (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-heroku
   specs:
     heroku (2.1.1)
@@ -109,29 +59,14 @@ GITHUBTARBALL
     hub (1.4.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-iterm2
-  specs:
-    iterm2 (1.2.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-java
-  specs:
-    java (1.7.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-karabiner
   specs:
-    karabiner (1.0.6)
+    karabiner (1.0.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-modern_space_cadet
   specs:
     modern_space_cadet (1.0.7)
-
-GITHUBTARBALL
-  remote: boxen/puppet-mongodb
-  specs:
-    mongodb (2.6.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -144,16 +79,6 @@ GITHUBTARBALL
     nodejs (5.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-notational_velocity
-  specs:
-    notational_velocity (1.1.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-onepassword
-  specs:
-    onepassword (1.1.5)
-
-GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -161,7 +86,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (2.7.1)
+    osx (2.8.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -174,19 +99,9 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-postgresql
-  specs:
-    postgresql (3.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-python
   specs:
-    python (1.3.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-redis
-  specs:
-    redis (3.1.0)
+    python (2.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -204,16 +119,6 @@ GITHUBTARBALL
     seil (1.0.3)
 
 GITHUBTARBALL
-  remote: boxen/puppet-skype
-  specs:
-    skype (1.1.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-slate
-  specs:
-    slate (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -227,16 +132,6 @@ GITHUBTARBALL
   remote: boxen/puppet-tmux
   specs:
     tmux (1.0.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-vagrant
-  specs:
-    vagrant (3.2.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-virtualbox
-  specs:
-    virtualbox (1.0.12)
 
 GITHUBTARBALL
   remote: boxen/puppet-wget
@@ -274,58 +169,37 @@ GITHUBTARBALL
     istatmenus4 (1.0.1)
 
 DEPENDENCIES
-  alfred (= 1.4.0)
-  appcleaner (= 1.0.0)
   autojump (= 1.0.0)
-  better_touch_tools (= 3.0.0)
   boxen (= 3.11.0)
   brewcask (= 0.0.6)
-  ccleaner (= 1.1.0)
-  chrome (= 1.2.0)
   clojure (= 1.3.0)
-  colloquy (= 1.0.0)
   dnsmasq (= 2.0.1)
-  dropbox (= 1.4.1)
-  emacs (= 1.3.0)
-  firefox (= 1.2.3)
   foreman (= 1.2.0)
   gcc (= 3.0.2)
   git (= 2.7.92)
   go (= 2.1.0)
-  googleearth (= 1.0.0)
   heroku (= 2.1.1)
   homebrew (= 1.13.0)
   hub (= 1.4.1)
   inifile (= 1.4.1)
   istatmenus4 (= 1.0.1)
-  iterm2 (= 1.2.2)
-  java (= 1.7.1)
-  karabiner (= 1.0.6)
+  karabiner (= 1.0.7)
   modern_space_cadet (= 1.0.7)
   module_data (= 0.0.4)
-  mongodb (= 2.6.1)
   nginx (= 1.4.6)
   nodejs (= 5.0.0)
-  notational_velocity (= 1.1.2)
-  onepassword (= 1.1.5)
   openssl (= 1.0.0)
-  osx (= 2.7.1)
+  osx (= 2.8.0)
   phantomjs (= 3.0.0)
   pkgconfig (= 1.0.0)
-  postgresql (= 3.0.1)
-  python (= 1.3.0)
-  redis (= 3.1.0)
+  python (= 2.0.1)
   repository (= 2.4.1)
   ruby (= 8.5.2)
   seil (= 1.0.3)
-  skype (= 1.1.0)
-  slate (= 1.0.1)
   stdlib (= 4.7.0)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
   tmux (= 1.0.2)
-  vagrant (= 3.2.0)
-  virtualbox (= 1.0.12)
   wget (= 1.0.1)
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
